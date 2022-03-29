@@ -4,6 +4,12 @@
     margin: 0 auto;
 }
 
+.my-btn{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
 /* Debug */
 .debug{background-color: rgba(0, 255, 0, 0.2); border: 1px solid black;}
 .h100{

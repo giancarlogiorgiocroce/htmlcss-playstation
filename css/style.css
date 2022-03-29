@@ -1,14 +1,30 @@
 /*
     HEADER
 */
-.nav-right,
-.nav-left{
-    justify-content: center;
-    align-items: center;
+.header-top{
+    height: 34px;
+}
+.header-down a{
+    height: 66px;
 }
 
+.nav-left,
 .nav-right{
-    flex-direction: row-reverse;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.nav-right .my-btn{
+    height: 50%;
+}
+
+.lens{
+    height: 25px;
+}
+
+.chevron{
+    height: 10px;
 }
 /*
     /HEADER
