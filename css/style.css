@@ -1,6 +1,15 @@
 /*
     HEADER
 */
+.nav-right,
+.nav-left{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right{
+    flex-direction: row-reverse;
+}
 /*
     /HEADER
 */
