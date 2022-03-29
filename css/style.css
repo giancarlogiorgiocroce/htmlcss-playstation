@@ -1,9 +1,20 @@
 /*
     HEADER
 */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
 .header-top{
     height: 34px;
 }
+
+.header-logo{
+    padding-top: 5px;
+}
+
 .header-down a{
     height: 66px;
 }
@@ -34,6 +45,21 @@
 /*
     JUMBO
 */
+.jumbo{
+    color: white;
+}
+
+.jumbo-txt{
+    padding: 20% 0 40px;
+}
+
+.jumbo-img{
+    background-image: url("img/img-jumbo/jumbo-bg.png");
+}
+
+.jumbo img{
+    width: 50%;
+}
 /*
     /JUMBO
 */
