@@ -10,14 +10,19 @@
     border-radius: 17.5px;
 }
 
+/* .my-btn-white-border:hover{
+    border: 3px solid white;
+    margin: -6px;
+} */
+
 /* Card piccole */
-.jumbo-cards img,
+.jumbo-gallery img,
 .game-card img,
 .single-bundle img,
 .single-discount img{
     width: 100%;
     border-radius: 15px;
-    margin: 15px;
+    margin: 5px;
 }
 
 /* Debug */
