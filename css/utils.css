@@ -13,7 +13,8 @@
 /* Card piccole */
 .jumbo-cards img,
 .game-card img,
-.single-bundle img{
+.single-bundle img,
+.single-discount img{
     width: 100%;
     border-radius: 15px;
     margin: 15px;

@@ -145,23 +145,46 @@ section.games{
     vertical-align: super;
 }
 
-/* SECTION Plus */
+/* SECTION Plus + Now */
+/* Sono praticamente uguali, con la differenza
+che la prima non ha spazio sopra e sotto. Altre
+differenze di colori sono nell'HTML */
 .ps-plus .row{
     background-color: rgb(190, 188, 187);
 }
 
-.ps-plus img{
+.ps-now{
+    background-color: rgb(22, 28, 59);
+}
+
+.ps-plus img,
+.ps-now img{
     width: 50%;
     margin-bottom: 20px;
 }
 
-.ps-plus img:only-child{
+.ps-plus img:only-child,
+.ps-now img:only-child{
     width: 100%;
     margin-bottom: 0;
 }
 
 .ps-plus button{
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* SECTION Store */
+.single-discount img{
+    border-radius: 0;
+}
+
+/* SECTION Social */
+.socials .title{
+    margin-bottom: 4rem;
+}
+
+.socials img{
+    width: 75%;
 }
 /*
     /MAIN
