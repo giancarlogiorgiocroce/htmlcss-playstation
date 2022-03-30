@@ -10,6 +10,15 @@
     border-radius: 17.5px;
 }
 
+/* Card piccole */
+.jumbo-cards img,
+.game-card img,
+.single-bundle img{
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px;
+}
+
 /* Debug */
 .debug{background-color: rgba(0, 255, 0, 0.2); border: 1px solid black;}
 .h100{

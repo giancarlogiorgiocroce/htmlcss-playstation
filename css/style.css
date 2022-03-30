@@ -60,12 +60,6 @@ header{
 .jumbo-txt img{
     width: 25%;
 }
-
-.jumbo-cards img{
-    width: 100%;
-    border-radius: 15px;
-    margin: 15px;
-}
 /*
     /JUMBO
 */
@@ -137,6 +131,37 @@ section.games{
 .games-txt img{
     width: 75%;
     padding: 30px 0;
+}
+    /* Parte inferiore */
+.other-games{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 40px 0;
+}
+
+/* SECTION PS4 */
+.ps-four-title i{
+    font-size: 12px;
+    vertical-align: super;
+}
+
+/* SECTION Plus */
+.ps-plus .row{
+    background-color: rgb(190, 188, 187);
+}
+
+.ps-plus img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.ps-plus img:only-child{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.ps-plus button{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 /*
     /MAIN
