@@ -40,37 +40,37 @@
                                 <img src="img/play_logo.svg" alt="sony logo">
                             </a>
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Giochi
                             </a>
                             <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Hardware
                             </a>
                             <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Servizi
                             </a>
                             <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Novità
                             </a>
                             <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Fai acquisti
                             </a>
                             <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Supporto
                             </a>
@@ -83,19 +83,22 @@
                 <!-- Lista navigazione di destra -->
                 <div class="col-3 offset-2 justify-content-end">
                     <ul class="nav-right d-flex align-items-center">
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a href="#">
                                 Giochi
                             </a>
                             <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <a class="btn btn-dark my-btn" href="#">
                                 Accedi
                             </a>
                         </li>
-                        <li>
+                        <li class="d-none d-lg-block">
                             <img class="lens" src="img/lens.svg" alt="ltente">
+                        </li>
+                        <li class="d-lg-none">
+                            <i class="bi bi-list"></i>
                         </li>
                     </ul>
                 </div>
@@ -128,57 +131,103 @@
         <!-- /Jumbo Immagine -->
 
         <!-- Jumbo Gallery -->
-        <div class="debug jumbo-cards container">
-            <div class="debug row row-cols-2 row-cols-lg-3 row-cols-xl-6">
-                <debug class="h100 col">qualcosa</debug>
-                <debug class="h100 col">qualcosa</debug>
-                <debug class="h100 col">qualcosa</debug>
-                <debug class="h100 col">qualcosa</debug>
-                <debug class="h100 col">qualcosa</debug>
-                <debug class="h100 col">qualcosa</debug>                
+        <div class="jumbo-cards container">
+            <div class="row row-cols-2 row-cols-lg-3 row-cols-xl-6">
+                <div class="col d-flex justify-content-center">
+                    <img src="img/img-jumbo/returnal-listing-thumb-01-ps5.jpg" alt="">
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img src="img/img-jumbo/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img src="img/img-jumbo/returnal-listing-thumb-01-ps5.jpg" alt="">
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img src="img/img-jumbo/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img src="img/img-jumbo/returnal-listing-thumb-01-ps5.jpg" alt="">
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img src="img/img-jumbo/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                </div>                
             </div>
         </div>
         <!-- /Jumbo Gallery -->
     </div>
-
     
     <main>
         <!-- PS5 -->
-        <section class="debug ps-five">
+        <section class="ps-five py-5">
 
             <!-- Titolo centrato -->
-            <div class="debug h100 my-container ps-five-title">
-                <p class="text-primary">provaprova</p>
-                <h1></h1>
-                <p class="text-secondary"></p>
+            <div class="my-container ps-five-title d-flex flex-column align-items-center">
+                <p class="text-primary text-uppercase">
+                    play has no limit
+                </p>
+                <h1>
+                    Ecco la PlayStation 5
+                </h1>
+                <p class="text-secondary">
+                    Tuffati in nuove possibilità di gioco completamente inaspettate
+                </p>
             </div>
             <!-- /Titolo centrato -->
 
             <!-- Panoramica PS5 -->
-            <div class="debug h300 container ps-five-console">
-                <div class="debug h300 row row-cols-1 row-cols-xl-2 align-items-center">
-                    <div class="debug col">
-                        <h1></h1>
-                        <p></p>
-                        <a class="btn" href="#">
+            <div class="container ps-five-console">
+                <div class="row row-cols-1 row-cols-xl-2 align-items-center">
+                    <div class="col">
+                        <h1>
+                            Console PlayStation 5
+                        </h1>
+                        <p class="text-secondary">
+                            Sperimenta la nuova generazione di incredibili giochi PlayStation
+                        </p>
+                        <a class="btn btn-primary my-btn" href="#">
                             Maggiori informazioni
                         </a>
                     </div>
-                    <div class="debug col">
-                        <img src="" alt="">
+                    <div class="col">
+                        <img src="img/img-ps-five/playstation-5-thumb.png" alt="ps5">
                     </div>
                 </div>
             </div>
             <!-- /Panoramica PS5 -->
 
             <!-- Accessori PS5 -->
-            <div class="debug h100 container ps-five-hardwere">
-                <div class="debug h100 row row-cols-3 row-cols-xl-5 align-items-center">
-                    <div class="debug col">1</div>
-                    <div class="debug col">1</div>
-                    <div class="debug col">1</div>
-                    <div class="debug col">1</div>
-                    <div class="debug col">1</div>
+            <div class="container ps-five-hardware">
+                <div class="row row-cols-3 row-cols-xl-5 align-items-bottomline">
+                    <div class="col d-flex flex-column align-items-center text-center my-card active">
+                        <img src="img/img-ps-five/playstation-5-thumb.png" alt="ps5">
+                        <p>
+                            Console PS5
+                        </p>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center text-center my-card">
+                        <img src="img/img-ps-five/joypad-thumb.png" alt="joypad">
+                        <p>
+                            Controller wireless DualSense&trade;
+                        </p>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center text-center my-card">
+                        <img src="img/img-ps-five/headset-thumb.png" alt="headset">
+                        <p>
+                            Cuffie wireless con microfono PULSE 3&trade;
+                        </p>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center text-center my-card">
+                        <img src="img/img-ps-five/remote-thumb.png" alt="remote">
+                        <p>
+                            Telecomando media
+                        </p>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center text-center my-card">
+                        <img src="img/img-ps-five/camera-thumb.jpg" alt="camera">
+                        <p>
+                            Telecamera HD
+                        </p>
+                    </div>
                 </div>
             </div>
             <!-- /Accessori PS5 -->

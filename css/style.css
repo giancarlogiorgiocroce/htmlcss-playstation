@@ -57,8 +57,14 @@ header{
     background-image: url("img/img-jumbo/jumbo-bg.png");
 }
 
-.jumbo img{
-    width: 50%;
+.jumbo-txt img{
+    width: 25%;
+}
+
+.jumbo-cards img{
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px;
 }
 /*
     /JUMBO
@@ -68,7 +74,53 @@ header{
 /*
     MAIN
 */
-/* SECTION */
+section{
+    padding: 40px 0;
+}
+
+/* SECTION PS5*/
+    /* PS5 titlolo */
+.ps-five-title p:first-of-type{
+    margin-bottom: -7.5px;
+}
+
+    /* PS5 console */
+.ps-five-console img{
+    width: 100%;
+}
+
+    /* PS5 accessori */
+.ps-five-hardware{
+    border-bottom: 1px solid white;
+}
+        /* Hover */
+.ps-five-hardware img{
+    width: 50%;
+    filter: grayscale(1);
+}
+.ps-five-hardware p{
+    color: lightgrey;
+}
+.ps-five-hardware .my-card:hover img{
+    transition: all 1s;
+    filter: grayscale(0);
+}
+.ps-five-hardware .my-card:hover p{
+    transition: all 1s;
+    color: black;
+}
+        /* Active */
+.ps-five-hardware .my-card.active{
+    border-bottom: 2px solid rgb(11, 94, 215);
+    filter: grayscale(0);
+    color: black;
+}
+.ps-five-hardware .my-card.active img{
+    filter: grayscale(0);
+}
+.ps-five-hardware .my-card.active p{
+    color: black;
+}
 /*
     /MAIN
 */
