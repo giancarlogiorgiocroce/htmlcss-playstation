@@ -54,7 +54,10 @@ header{
 }
 
 .jumbo-img{
-    background-image: url('img/img-jumbo/jumbo-bg.png');
+    background-image: url("img/img-jumbo/jumbotron-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbo-txt img{
@@ -212,8 +215,9 @@ footer li{
     padding-bottom: 5px;
 }
 
-.footer-logo div:first-child img{
-    width: 25%;
+svg{
+    width: 150px;
+    height: 150px;
 }
 
 .footer-logo div:last-child img{
