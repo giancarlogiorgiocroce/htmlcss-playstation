@@ -59,21 +59,21 @@ header{
 */
 .jumbo{
     color: white;
-}
-
-.jumbo-txt{
-    padding: 20% 0 40px;
+    padding-top: 75px;
 }
 
 .jumbo-img{
-    background-image: url("");
-    background-position: center;
+    background-image: url("../img/img-jumbo/jumbo-bg.png");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding: 30vh 0 10vh;
 }
 
 .jumbo-txt img{
-    width: 25%;
+    width: 75%;
+    margin-bottom: 5vh;
 }
 
 .jumbo-gallery{
@@ -102,6 +102,9 @@ section{
 }
 
 /* SECTION PS5*/
+section.ps-five{
+    padding-top: 15vh;
+}
     /* PS5 titlolo */
 .ps-five-title p:first-of-type{
     margin-bottom: -7.5px;
@@ -151,7 +154,12 @@ section.games{
 }
     /* Parte superiore */
 .main-game{
-    background-image: url('img/img-games/it-takes-two-hero-banner-desktop.jpg');
+    background-image: url("../img/img-games/it-takes-two-hero-banner-desktop.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 5vh 0;
 }
 .games-txt{
     margin-bottom: 40px;
