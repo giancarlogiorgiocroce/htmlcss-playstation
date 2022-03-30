@@ -54,7 +54,7 @@ header{
 }
 
 .jumbo-img{
-    background-image: url("img/img-jumbo/jumbo-bg.png");
+    background-image: url('img/img-jumbo/jumbo-bg.png');
 }
 
 .jumbo-txt img{
@@ -120,6 +120,23 @@ section{
 }
 .ps-five-hardware .my-card.active p{
     color: black;
+}
+
+/* SECTION GAMES */
+section.games{
+    color: white;
+}
+    /* Parte superiore */
+.main-game{
+    background-image: url('img/img-games/it-takes-two-hero-banner-desktop.jpg');
+}
+.games-txt{
+    margin-bottom: 40px;
+}
+
+.games-txt img{
+    width: 75%;
+    padding: 30px 0;
 }
 /*
     /MAIN
