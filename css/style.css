@@ -7,6 +7,7 @@ header{
     z-index: 999;
 }
 
+/* Banda nera di sopra */
 .header-top{
     height: 34px;
 }
@@ -19,6 +20,7 @@ header{
     height: 66px;
 }
 
+/* Banda di navigazione di sotto */
 .nav-left,
 .nav-right{
     padding: 0;
@@ -48,6 +50,56 @@ header{
 
 .header-down li:hover .chevron.hover{
     display: inline;
+}
+
+
+.header-down li:hover .dropdown{
+    display: block!important;
+}
+/* Sarebbe meglio ovviamente attivarlo con il
+click visto che si fa fatica a passare poi
+alla finestra! */
+
+    /* Dropdown del Nav */
+.dropdown{
+    width: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 70px;
+    /* l'unico modo per usare l'hover è
+    sovrapporre la finestra all'header */
+    left: 0;
+}
+        /* Dropdown up */
+.dropdown-up{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.dropdown-card:hover{
+    cursor: pointer;
+
+    transition: all 1s;
+    box-shadow: 0 2px 3px grey;
+}
+
+.dropdown-card img{
+    width: 75%;
+}
+.dropdown-card p{
+    margin: 0;
+}
+
+        /* Dropdown down */
+.dropdown-down ul{
+    list-style: initial;
+    color: blue;
+    padding: 0 50px;
+}
+
+.dropdown-down li{
+    margin: 15px;
 }
 /*
     /HEADER
@@ -80,12 +132,13 @@ header{
     margin-top: 30px;
 }
 
-.jumbo-card:hover{
+.jumbo-card:hover img{
     transition: all 1s;
     transform: translate(0, -10%);
+    box-shadow: 0 10px darkgrey;
 }
 
-.jumbo-card.active{
+.jumbo-card.active img{
     border: 4px solid rgb(11, 94, 215);
     border-radius: 20px;
 }
@@ -100,6 +153,7 @@ header{
 section{
     padding: 40px 0;
 }
+
 
 /* SECTION PS5*/
 section.ps-five{
@@ -135,6 +189,7 @@ section.ps-five{
     transition: all 1s;
     color: black;
 }
+
         /* Active */
 .ps-five-hardware .my-card.active{
     border-bottom: 2px solid rgb(11, 94, 215);
@@ -147,6 +202,7 @@ section.ps-five{
 .ps-five-hardware .my-card.active p{
     color: black;
 }
+
 
 /* SECTION GAMES */
 section.games{
@@ -176,11 +232,13 @@ section.games{
     padding: 40px 0;
 }
 
+
 /* SECTION PS4 */
 .ps-four-title i{
     font-size: 12px;
     vertical-align: super;
 }
+
 
 /* SECTION Plus + Now */
 /* Sono praticamente uguali, con la differenza
@@ -215,10 +273,12 @@ differenze di colori sono nell'HTML */
     outline: rgb(218, 219, 220) solid 3px;
 }
 
+
 /* SECTION Store */
 .single-discount img{
     border-radius: 0;
 }
+
 
 /* SECTION Social */
 .socials .title,

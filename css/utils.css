@@ -4,18 +4,21 @@
     margin: 0 auto;
 }
 
+
+/* Bottoni */
 .my-btn{
     padding: 5px 10px;
     color: white;
     border-radius: 17.5px;
 }
+        /* Bordi i hover */
 .my-btn-white-border:hover{
     border: 1px solid white;
 }
 .my-btn-black-border:hover{
     border: 1px solid black;
 }
-    /* Outline comuni  */
+        /* Outline comuni  */
 .my-btn.red-outline:hover {
     outline: rgb(187, 45, 59) solid 3px;
 }
@@ -29,6 +32,7 @@
     outline: white solid 3px;
 }
 
+
 /* Card piccole */
 .jumbo-gallery img,
 .game-card img,
@@ -38,6 +42,3 @@
     border-radius: 15px;
     margin: 5px;
 }
-
-/* Debug */
-.debug{background-color: rgba(0, 255, 0, 0.2); border: 1px solid black;}
