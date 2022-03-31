@@ -208,11 +208,11 @@ differenze di colori sono nell'HTML */
 
 .ps-plus button.my-btn{
     background-color: rgb(218, 219, 220);
-    border: 3px solid rgb(190, 188, 187);
 }
 
 .ps-plus button.my-btn:hover{
-    border: 3px solid rgb(199, 197, 197);
+    border: 1px solid white;
+    outline: rgb(218, 219, 220) solid 3px;
 }
 
 /* SECTION Store */

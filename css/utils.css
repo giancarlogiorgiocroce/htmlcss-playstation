@@ -9,11 +9,25 @@
     color: white;
     border-radius: 17.5px;
 }
-
-/* .my-btn-white-border:hover{
-    border: 3px solid white;
-    margin: -6px;
-} */
+.my-btn-white-border:hover{
+    border: 1px solid white;
+}
+.my-btn-black-border:hover{
+    border: 1px solid black;
+}
+    /* Outline comuni  */
+.my-btn.red-outline:hover {
+    outline: rgb(187, 45, 59) solid 3px;
+}
+.my-btn.blue-outline:hover {
+    outline: rgb(11, 94, 215) solid 3px;
+}
+.my-btn.black-outline:hover {
+    outline: black solid 3px;
+}
+.my-btn.white-outline:hover {
+    outline: white solid 3px;
+}
 
 /* Card piccole */
 .jumbo-gallery img,
